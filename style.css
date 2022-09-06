@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 #active {
@@ -11,9 +11,10 @@ a {
 h1 {
   font-size: 50px;
   text-align: center;
-  border-bottom: 2px solid powderblue;
+  border-bottom: 2px solid white;
   padding: 25px;
   margin: 0;
+  background-color: powderblue;
 }
 #grid ol {
   font-size: 17px;
@@ -22,6 +23,7 @@ h1 {
   margin: 0;
   padding: 20px;
   padding-left: 40px;
+  background-color: powderblue;
 }
 #grid {
   display: grid;
@@ -29,4 +31,11 @@ h1 {
 }
 #grid #article {
   padding-left: 15px;
+  padding-right: 25px;
+}
+div {
+  text-align: center;
+}
+ul {
+  list-style: none;
 }
